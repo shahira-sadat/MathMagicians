@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Math Magicians
+Math Magicians is a website that allows users <br> to make simple calculations and read a random math-releted quote.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="670" alt="Screen Shot 2022-08-02 at 7 46 55 PM" src="https://user-images.githubusercontent.com/53530780/182410034-d079ba73-a700-4eb5-a5ac-1a36b1c2e012.png">
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Can check the live demo [here](https://shahira-sadat.github.io)
 
-### `npm start`
+## Built With
+- ReactJS
+- Linters (Lighthouse, Webhint, Stylelint, Eslint)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+install git, node, any code editor in your local machine
 
-### `npm run build`
+### Setup
+clone the repo or download from https://github.com/shahira-sadat/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Build the app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Run the app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run the project run the "index.html" file in your browser.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+👤 Shahira Sadat
+
+- GitHub: [Shahira Sadat](https://github.com/shahira-sadat)
+- Twitter: [Shahira Sadat](https://twitter.com/SadatShahira)
+- Linkedin: [Shahira Sadat](https://www.linkedin.com/in/shahira-sadat-49b402199)
+- Gmail: shahira.sadat1@gmail.com
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
+
