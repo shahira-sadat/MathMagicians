@@ -8,12 +8,11 @@ button:hover {
   cursor: pointer;
 }
 
-
 .calculator {
   width: 25%;
   background-color: lightgray;
   padding-bottom: 1px;
-  margin: 15rem auto 5rem auto; ;
+  margin: 15rem auto 5rem auto;
   border: 1px solid lightslategray;
 }
 
