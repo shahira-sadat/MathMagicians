@@ -1,4 +1,4 @@
-import React from 'react';
+import { useCallback, useState } from 'react';
 import calculate from '../logic/calculate';
 
 const buttons = [
@@ -67,43 +67,39 @@ const buttons = [
   },
 ];
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Calculator = () => {
+  const [state, setState] = useState({});
 
-  onClickHandler = (event) => {
-    this.setState((prevState) => calculate(prevState, event.target.value));
-  };
 
-  formatOutput = () => {
-    const { total, next, operation } = this.state;
-    const display = (total || '') + (operation || '') + (next || '');
-
-    return display || '0';
-  };
-
-  render() {
-    return (
-      <div className="calculator">
-        <div className="output">
-          <p>{this.formatOutput()}</p>
-        </div>
-        <div className="grid">
-          {buttons.map(({ text, className }) => (
-            <input
-              value={text}
-              className={`button grid-item ${className || ''}`}
-              key={text}
-              type="button"
-              onClick={this.onClickHandler}
-            />
-          ))}
-        </div>
+  const onClickHandler = useCallback((event) => {
+    setState((prev) => {
+      const output = calculate(prev, event.target.value);
+      return ({
+        ...prev,
+        ...output,
+      });
+    });
+  }, []);
+  const { total, next, operation } = state;
+  const display = (total || '') + (operation || '') + (next || '');
+     return (
+    <div className="calculator">
+      <div className="output">
+        <p>{display || '0'}</p>
       </div>
-    );
-  }
-}
+      <div className="grid">
+        {buttons.map(({ text, className }) => (
+          <input
+            value={text}
+            className={`button grid-item ${className || ''}`}
+            key={text}
+            type="button"
+            onClick={onClickHandler}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Calculator;
