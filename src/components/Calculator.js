@@ -67,9 +67,8 @@ const buttons = [
   },
 ];
 
-const Calculator = () => {
+function Calculator() {
   const [state, setState] = useState({});
-
 
   const onClickHandler = useCallback((event) => {
     setState((prev) => {
@@ -82,7 +81,7 @@ const Calculator = () => {
   }, []);
   const { total, next, operation } = state;
   const display = (total || '') + (operation || '') + (next || '');
-     return (
+  return (
     <div className="calculator">
       <div className="output">
         <p>{display || '0'}</p>
@@ -100,6 +99,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Calculator;
