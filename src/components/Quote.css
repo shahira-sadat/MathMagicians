@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 40px;
   padding: 10%;
-
 }
 
 .quote {
@@ -13,8 +12,8 @@
   font-family: monospace, serif;
 }
 
-.author{
-      font-size: 30px;
+.author {
+  font-size: 30px;
   color: rgb(52, 38, 114);
   font-family: monospace, serif;
 }
