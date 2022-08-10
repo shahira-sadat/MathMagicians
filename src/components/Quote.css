@@ -1,0 +1,26 @@
+.quote-section {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10%;
+}
+
+.quote {
+  font-size: 30px;
+  color: rgb(52, 38, 114);
+  font-family: monospace, serif;
+}
+
+.author {
+  font-size: 30px;
+  color: rgb(52, 38, 114);
+  font-family: monospace, serif;
+}
+
+.line {
+  height: 4px;
+  background-color: rgb(101, 86, 168);
+  width: 30%;
+  align-self: center;
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 100px 0 100px;
+}
+
+.section-title {
+  font-size: 30px;
+  color: rgb(52, 38, 114);
+  font-family: monospace, serif;
+}
+
+.content {
+  font-size: 20px;
+  color: rgb(52, 38, 114);
+  font-weight: 400;
+  font-family: 'Montserrat', serif;
+  line-height: 30px;
+  padding: 10px 250px 0 0;
+}
