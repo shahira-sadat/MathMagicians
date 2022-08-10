@@ -9,7 +9,7 @@
 html,
 body {
   min-height: 100vh;
-  background-image: url(images/bg.png);
+  /* background-image: url(images/bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
