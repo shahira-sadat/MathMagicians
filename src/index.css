@@ -1,50 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.button:hover {
-  background: rgb(252, 108, 56);
-  cursor: pointer;
+html,
+body {
+  min-height: 100vh;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.calculator {
-  width: 25%;
-  background-color: lightgray;
-  padding-bottom: 1px;
-  margin: 15rem auto 5rem auto;
-  border: 1px solid lightslategray;
-}
-
-.output {
-  height: 48px;
-  padding: 0 4px;
+body {
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.app-bar {
+  display: flex;
   align-items: center;
-  background-color: lightslategray;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  padding: 16px 24px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.app-title {
   color: white;
-  font-size: 20px;
-  text-align: end;
+  font-weight: bold;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1px;
-  margin-top: 1px;
+.section-title {
+  font-size: 53px;
+  color: #7869f0;
 }
 
-.grid-item {
-  border: none;
-  height: 48px;
-  background-color: white;
-}
-
-.span-2-col {
-  grid-column: 1 / span 2;
-}
-
-.bg-orange {
-  background-color: orange;
+.active {
+  font-weight: bold;
+  color: rgb(218, 75, 23);
+  
 }
