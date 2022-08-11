@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect homepage to match working snapshot 1`] = `
+<section
+  className="home"
+>
+  <h2
+    className="section-title"
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    className="content"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Suspendisse at enim viverra, volutpat velit vitae, pretium sem. 
+Nullam laoreet dui eget tellus aliquam, a semper est dignissim. 
+Quisque iaculis enim malesuada lacus bibendum pulvinar. 
+Phasellus quis tortor in dui placerat aliquam. a semper est dignissim. 
+Quisque iaculis enim malesuada lacus bibendum pulvinar. 
+Phasellus quis tortor in dui placerat aliquam.
+
+  </p>
+  <p
+    className="content"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Suspendisse at enim viverra, volutpat velit vitae, pretium sem. 
+Nullam laoreet dui eget tellus aliquam, a semper est dignissim. 
+Quisque iaculis enim malesuada lacus bibendum pulvinar. 
+Phasellus quis tortor in dui placerat aliquam. a semper est dignissim. 
+Quisque iaculis enim malesuada lacus bibendum pulvinar. 
+Phasellus quis tortor in dui placerat aliquam.
+
+  </p>
+</section>
+`;
