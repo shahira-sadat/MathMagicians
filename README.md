@@ -5,7 +5,6 @@ Math Magicians is a website that allows users <br> to make simple calculations a
 <img width="1000" alt="ScreenShot" src="src/images/3.png" />
 ## Live Demo
 
-Can check the live demo [here](https://shahira-sadat.github.io)
 
 ## Built With
 - ReactJS
@@ -18,6 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 install git, node, any code editor in your local machine
+
 
 ### Setup
 clone the repo or download from https://github.com/shahira-sadat/
