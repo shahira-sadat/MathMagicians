@@ -1,8 +1,8 @@
 # Math Magicians
 Math Magicians is a website that allows users <br> to make simple calculations and read a random math-releted quote.
-
-<img width="670" alt="Screen Shot 2022-08-02 at 7 46 55 PM" src="https://user-images.githubusercontent.com/53530780/182410034-d079ba73-a700-4eb5-a5ac-1a36b1c2e012.png">
-
+<img width="1000" alt="ScreenShot" src="src/images/1.png" />
+<img width="1000" alt="ScreenShot" src="src/images/2.png" />
+<img width="1000" alt="ScreenShot" src="src/images/3.png" />
 ## Live Demo
 
 Can check the live demo [here](https://shahira-sadat.github.io)
