@@ -1,0 +1,21 @@
+
+
+exports[`expect quote page to match working snapshot 1`] = `
+<section
+  className="quote-section"
+>
+  <div
+    className="line"
+  />
+  <h5
+    className="quote"
+  >
+    There will always be science, engineering, and technology. And there will always, always be mathematics. 
+  </h5>
+  <h6
+    className="author"
+  >
+    Katherine Johnson
+  </h6>
+</section>
+`;
