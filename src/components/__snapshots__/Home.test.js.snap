@@ -1,4 +1,3 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`expect homepage to match working snapshot 1`] = `
 <section
