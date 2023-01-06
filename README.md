@@ -1,10 +1,10 @@
 # Math Magicians
 Math Magicians is a website that allows users <br> to make simple calculations and read a random math-releted quote.
-<img width="1000" alt="ScreenShot" src="src/images/1.png" />
-<img width="1000" alt="ScreenShot" src="src/images/2.png" />
-<img width="1000" alt="ScreenShot" src="src/images/3.png" />
-## Live Demo
 
+## Live Demo
+[Math Magicians heroku](https://mathmagi.herokuapp.com/#/)
+
+[Math Magicians Netlify](https://62f4719741529b5c0ef9e4a1--verdant-griffin-6890d8.netlify.app/#/)
 
 ## Built With
 - ReactJS
