@@ -4,7 +4,7 @@ Math Magicians is a website that allows users <br> to make simple calculations a
 ## Live Demo
 [Math Magicians heroku](https://mathmagi.herokuapp.com/#/)
 
-[Math Magicians Netlify](https://62f4719741529b5c0ef9e4a1--verdant-griffin-6890d8.netlify.app/#/)
+[Math Magicians Netlify](https://63b813543282cd3d473ce766--verdant-griffin-6890d8.netlify.app/#/)
 
 ## Built With
 - ReactJS
